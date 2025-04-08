@@ -1,0 +1,159 @@
+# Greek translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-03-27 16:18+0000\n"
+"PO-Revision-Date: 2025-03-27 16:18+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: el\n"
+"Language-Team: el <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+
+msgid "Wild Atlantic Way Guide"
+msgstr "Οδηγός Wild Atlantic Way"
+
+msgid "About"
+msgstr "Σχετικά"
+
+msgid "Sustainability"
+msgstr "Βιωσιμότητα"
+
+msgid "Privacy"
+msgstr "Απόρρητο"
+
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+msgid "Plan Your Perfect Journey on The Wild Atlantic Way"
+msgstr "Σχεδιάστε το Τέλειο Ταξίδι σας στο Wild Atlantic Way"
+
+msgid "Expert-led, step-by-step itineraries for a secure travel experience"
+msgstr "Διαδρομές με καθοδήγηση ειδικών για μια ασφαλή ταξιδιωτική εμπειρία βήμα προς βήμα"
+
+msgid "Explore Itineraries"
+msgstr "Εξερευνήστε Διαδρομές"
+
+msgid "Plan Your Route in 3 Simple Steps"
+msgstr "Σχεδιάστε τη Διαδρομή σας σε 3 Απλά Βήματα"
+
+msgid "Navigate confidently with our quick, guided process."
+msgstr "Πλοηγηθείτε με αυτοπεποίθηση μέσω της γρήγορης, καθοδηγούμενης διαδικασίας μας."
+
+msgid "Step 1"
+msgstr "Βήμα 1"
+
+msgid "1. Choose Your Route"
+msgstr "1. Επιλέξτε Διαδρομή"
+
+msgid "Explore curated paths across the Wild Atlantic Way tailored for your interests."
+msgstr "Ανακαλύψτε επιλεγμένες διαδρομές στο Wild Atlantic Way προσαρμοσμένες στα ενδιαφέροντά σας."
+
+msgid "Step 2"
+msgstr "Βήμα 2"
+
+msgid "2. Set Preferences"
+msgstr "2. Ορίστε Προτιμήσεις"
+
+msgid "Select your travel pace, accessibility needs, and accommodation styles."
+msgstr "Επιλέξτε ρυθμό ταξιδιού, ανάγκες προσβασιμότητας και τύπους διαμονής."
+
+msgid "Step 3"
+msgstr "Βήμα 3"
+
+msgid "3. Download & Go"
+msgstr "3. Κατεβάστε & Ξεκινήστε"
+
+msgid "Get your customized itinerary — printable, shareable, and ready to roll."
+msgstr "Λάβετε το εξατομικευμένο σας δρομολόγιο — έτοιμο για εκτύπωση και χρήση."
+
+msgid "Cultural and Safety Guidelines"
+msgstr "Πολιτιστικές και Οδηγίες Ασφαλείας"
+
+msgid "Cultural Etiquette"
+msgstr "Πολιτιστικό Πρωτόκολλο"
+
+msgid "Safety Tips"
+msgstr "Συμβουλές Ασφαλείας"
+
+msgid "Greet locals with a friendly smile or a casual “hello” — Irish people are welcoming and informal."
+msgstr "Χαιρετήστε τους ντόπιους με ένα φιλικό χαμόγελο ή ένα απλό «γεια» — οι Ιρλανδοί είναι φιλόξενοι και ανεπίσημοι."
+
+msgid "Be respectful when visiting rural communities, especially when entering pubs, local shops, or sacred sites."
+msgstr "Να είστε σεβαστικοί όταν επισκέπτεστε αγροτικές κοινότητες, ειδικά σε παμπ, τοπικά καταστήματα ή ιερούς χώρους."
+
+msgid "Take care around traditional music sessions — enjoy, but avoid interrupting musicians or taking photos without asking."
+msgstr "Δείξτε προσοχή σε παραδοσιακές μουσικές συνεδρίες — απολαύστε τις, αλλά αποφύγετε να διακόπτετε ή να φωτογραφίζετε χωρίς άδεια."
+
+msgid "Driving? Always be courteous on narrow roads — a wave of thanks is part of Irish road etiquette."
+msgstr "Οδηγείτε; Να είστε ευγενικοί σε στενούς δρόμους — ένα κύμα ευχαριστίας είναι μέρος της ιρλανδικής οδικής κουλτούρας."
+
+msgid "Stay on marked trails when hiking coastal cliffs like Slieve League or the Cliffs of Moher — they can be slippery and exposed."
+msgstr "Μείνετε στα σηματοδοτημένα μονοπάτια σε παράκτιους γκρεμούς όπως το Slieve League ή οι Γκρεμοί του Moher — μπορεί να είναι ολισθηροί και εκτεθειμένοι."
+
+msgid "Prepare for sudden changes in weather, especially on the west coast — bring a waterproof jacket even on sunny days."
+msgstr "Προετοιμαστείτε για ξαφνικές αλλαγές καιρού, ιδιαίτερα στη δυτική ακτή — έχετε μαζί σας ένα αδιάβροχο ακόμα και τις ηλιόλουστες μέρες."
+
+msgid "Mobile signal may be weak in remote areas — download offline maps and share your travel plans in advance."
+msgstr "Το σήμα κινητής μπορεί να είναι αδύναμο σε απομακρυσμένες περιοχές — κατεβάστε χάρτες offline και κοινοποιήστε τα σχέδιά σας εκ των προτέρων."
+
+msgid "Use designated swimming areas when visiting beaches — currents can be strong along the Atlantic coast."
+msgstr "Χρησιμοποιείτε καθορισμένες περιοχές για κολύμπι — τα ρεύματα μπορεί να είναι ισχυρά κατά μήκος της ακτής του Ατλαντικού."
+
+msgid "Customer Reviews & Ratings"
+msgstr "Αξιολογήσεις και Κριτικές Πελατών"
+
+msgid "Great travel insights! Helped me plan the perfect route through the Dingle Peninsula."
+msgstr "Εξαιρετικές ταξιδιωτικές πληροφορίες! Με βοήθησαν να σχεδιάσω την ιδανική διαδρομή στη Χερσόνησο Dingle."
+
+msgid "Expert Review, Irish Travel Journal"
+msgstr "Κριτική Ειδικού, Irish Travel Journal"
+
+msgid "Very useful tips. The cultural guide helped us feel confident visiting local towns."
+msgstr "Πολύ χρήσιμες συμβουλές. Ο πολιτιστικός οδηγός μάς έκανε να αισθανθούμε άνετα στις επισκέψεις σε τοπικές πόλεις."
+
+msgid "User Testimonial, Athens Couple"
+msgstr "Μαρτυρία Χρήστη, Ζευγάρι από Αθήνα"
+
+msgid "Trusted Partner"
+msgstr "Έμπιστος Συνεργάτης"
+
+msgid "Certified and verified guides. Highly recommended for new visitors."
+msgstr "Πιστοποιημένοι και ελεγμένοι οδηγοί. Συνιστώνται ανεπιφύλακτα για νέους επισκέπτες."
+
+msgid "Verified Badge, Explore Ireland Network"
+msgstr "Σήμα Επαλήθευσης, Δίκτυο Explore Ireland"
+
+msgid "Menu"
+msgstr "Μενού"
+
+msgid "Itineraries"
+msgstr "Διαδρομές"
+
+msgid "Guidelines"
+msgstr "Οδηγίες"
+
+msgid "Pantheon icon"
+msgstr "Εικονίδιο Παρθενώνα"
+
+msgid "English"
+msgstr "Αγγλικά"
+
+msgid "Greek"
+msgstr "Ελληνικά"
+
+msgid "Danish"
+msgstr "Δανικά"
+""")
+
+
+

@@ -1,0 +1,490 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-04-04 11:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/includes/da/footer.html:5 templates/includes/el/footer.html:4
+#: templates/includes/en/footer.html:5
+msgid "Wild Atlantic Way Guide"
+msgstr ""
+
+#: templates/includes/da/footer.html:6
+msgid "About"
+msgstr ""
+
+#: templates/includes/da/footer.html:7 templates/includes/el/footer.html:12
+#: templates/includes/en/footer.html:9
+msgid "Sustainability"
+msgstr ""
+
+#: templates/includes/da/footer.html:8 templates/includes/el/footer.html:10
+#: templates/includes/en/footer.html:7
+msgid "Privacy"
+msgstr ""
+
+#: templates/includes/da/footer.html:9 templates/includes/da/navbar.html:34
+#: templates/includes/el/footer.html:14 templates/includes/el/navbar.html:35
+#: templates/includes/en/footer.html:10
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/da/hero.html:6
+msgid "Discover Your Unique Journey on The Wild Atlantic Way"
+msgstr ""
+
+#: templates/includes/da/hero.html:9
+msgid "Flexible, eco-friendly travel experiences designed for you"
+msgstr ""
+
+#: templates/includes/da/hero.html:12
+msgid "Plan Flexibility"
+msgstr ""
+
+#: templates/includes/da/hero.html:15
+msgid "Explore Local Gems"
+msgstr ""
+
+#: templates/includes/da/main.html:6
+msgid "Customisable Experience Module"
+msgstr ""
+
+#: templates/includes/da/main.html:7
+msgid ""
+"Create a journey that reflects your values — freedom, nature, and local "
+"living."
+msgstr ""
+
+#: templates/includes/da/main.html:12
+msgid "Compass icon"
+msgstr ""
+
+#: templates/includes/da/main.html:13
+msgid "Flexible Itineraries"
+msgstr ""
+
+#: templates/includes/da/main.html:14
+msgid ""
+"Adjust your plans along the way. Our self-guided tools let you follow the"
+" coast at your own rhythm."
+msgstr ""
+
+#: templates/includes/da/main.html:19
+msgid "Yarn icon"
+msgstr ""
+
+#: templates/includes/da/main.html:20
+msgid "Local Artisan Encounters"
+msgstr ""
+
+#: templates/includes/da/main.html:21
+msgid ""
+"Meet Irish makers — potters, weavers, storytellers — in warm, welcoming "
+"communities."
+msgstr ""
+
+#: templates/includes/da/main.html:26
+msgid "Leaf icon"
+msgstr ""
+
+#: templates/includes/da/main.html:27
+msgid "Eco-Conscious Travel"
+msgstr ""
+
+#: templates/includes/da/main.html:28
+msgid ""
+"Minimise your impact with carbon-light transport, green stays, and eco-"
+"trails along the Wild Atlantic Way."
+msgstr ""
+
+#: templates/includes/da/main.html:39
+msgid "Interactive Map & Featured Attractions"
+msgstr ""
+
+#: templates/includes/da/main.html:40
+msgid ""
+"Click around to discover unique stops — from artisan villages to ocean-"
+"view trails."
+msgstr ""
+
+#: templates/includes/da/main.html:57
+msgid "Highlights to Explore"
+msgstr ""
+
+#: templates/includes/da/main.html:59
+msgid "🌊 Dolphin-watching in Dingle Bay"
+msgstr ""
+
+#: templates/includes/da/main.html:60
+msgid "🧵 Wool spinning workshop in Donegal"
+msgstr ""
+
+#: templates/includes/da/main.html:61
+msgid "🍃 Clifftop eco-trail in Slieve League"
+msgstr ""
+
+#: templates/includes/da/main.html:62
+msgid "🎨 Coastal pottery studio in Connemara"
+msgstr ""
+
+#: templates/includes/da/main.html:74
+msgid "User Stories & Visual Reviews"
+msgstr ""
+
+#: templates/includes/da/main.html:75
+msgid ""
+"Real experiences from travellers who explored the Wild Atlantic Way their"
+" own way."
+msgstr ""
+
+#: templates/includes/da/main.html:82
+msgid ""
+"Exploring hidden gems off the main road was amazing — every turn felt "
+"like a surprise."
+msgstr ""
+
+#: templates/includes/da/main.html:83
+msgid "Isabella, Sweden"
+msgstr ""
+
+#: templates/includes/da/main.html:88
+msgid ""
+"Loved the local artisan experiences — pottery, cheese-making, even "
+"storytelling around a fire."
+msgstr ""
+
+#: templates/includes/da/main.html:89
+msgid "Jonas, Copenhagen"
+msgstr ""
+
+#: templates/includes/da/main.html:94
+msgid ""
+"Eco-friendly travel made my trip feel purposeful. I stayed in a green "
+"hostel and used a bike-sharing app."
+msgstr ""
+
+#: templates/includes/da/main.html:95
+msgid "Maja, Aarhus"
+msgstr ""
+
+#: templates/includes/da/main.html:101
+msgid "Previous"
+msgstr ""
+
+#: templates/includes/da/main.html:105
+msgid "Next"
+msgstr ""
+
+#: templates/includes/da/navbar.html:6 templates/includes/el/navbar.html:6
+#: templates/includes/en/navbar.html:6
+msgid "Logo"
+msgstr ""
+
+#: templates/includes/da/navbar.html:9 templates/includes/el/navbar.html:9
+#: templates/includes/en/navbar.html:9
+msgid "The Wild Atlantic Way"
+msgstr ""
+
+#: templates/includes/da/navbar.html:16 templates/includes/el/navbar.html:18
+#: templates/includes/en/navbar.html:16
+msgid "Toggle navigation"
+msgstr ""
+
+#: templates/includes/da/navbar.html:22 templates/includes/el/navbar.html:26
+#: templates/includes/en/navbar.html:22
+msgid "Home"
+msgstr ""
+
+#: templates/includes/da/navbar.html:25
+msgid "Experiences"
+msgstr ""
+
+#: templates/includes/da/navbar.html:28
+msgid "Customise Your Trip"
+msgstr ""
+
+#: templates/includes/da/navbar.html:31 templates/includes/en/navbar.html:31
+msgid "Reviews"
+msgstr ""
+
+#: templates/includes/da/navbar.html:41
+msgid "Bike icon"
+msgstr ""
+
+#: templates/includes/da/navbar.html:47 templates/includes/el/navbar.html:48
+#: templates/includes/en/navbar.html:40
+msgid "English"
+msgstr ""
+
+#: templates/includes/da/navbar.html:48 templates/includes/el/navbar.html:49
+#: templates/includes/en/navbar.html:41
+msgid "Greek"
+msgstr ""
+
+#: templates/includes/da/navbar.html:49 templates/includes/el/navbar.html:50
+#: templates/includes/en/navbar.html:42
+msgid "Danish"
+msgstr ""
+
+#: templates/includes/el/footer.html:6 templates/includes/en/footer.html:6
+msgid "About Us"
+msgstr ""
+
+#: templates/includes/el/footer.html:8
+msgid "FAQs"
+msgstr ""
+
+#: templates/includes/el/hero.html:6
+msgid "Plan Your Perfect Journey on The Wild Atlantic Way"
+msgstr ""
+
+#: templates/includes/el/hero.html:9
+msgid "Expert-led, step-by-step itineraries for a secure travel experience"
+msgstr ""
+
+#: templates/includes/el/hero.html:12
+msgid "Explore Itineraries"
+msgstr ""
+
+#: templates/includes/el/main.html:6
+msgid "Plan Your Route in 3 Simple Steps"
+msgstr ""
+
+#: templates/includes/el/main.html:7
+msgid "Navigate confidently with our quick, guided process."
+msgstr ""
+
+#: templates/includes/el/main.html:12
+msgid "Step 1"
+msgstr ""
+
+#: templates/includes/el/main.html:13
+msgid "1. Choose Your Route"
+msgstr ""
+
+#: templates/includes/el/main.html:14
+msgid ""
+"Explore curated paths across the Wild Atlantic Way tailored for your "
+"interests."
+msgstr ""
+
+#: templates/includes/el/main.html:19
+msgid "Step 2"
+msgstr ""
+
+#: templates/includes/el/main.html:20
+msgid "2. Set Preferences"
+msgstr ""
+
+#: templates/includes/el/main.html:21
+msgid "Select your travel pace, accessibility needs, and accommodation styles."
+msgstr ""
+
+#: templates/includes/el/main.html:26
+msgid "Step 3"
+msgstr ""
+
+#: templates/includes/el/main.html:27
+msgid "3. Download & Go"
+msgstr ""
+
+#: templates/includes/el/main.html:28
+msgid "Get your customized itinerary — printable, shareable, and ready to roll."
+msgstr ""
+
+#: templates/includes/el/main.html:38
+msgid "Cultural and Safety Guidelines"
+msgstr ""
+
+#: templates/includes/el/main.html:41
+msgid "Cultural Etiquette"
+msgstr ""
+
+#: templates/includes/el/main.html:44
+msgid "Safety Tips"
+msgstr ""
+
+#: templates/includes/el/main.html:50
+msgid ""
+"Greet locals with a friendly smile or a casual “hello” — Irish people are"
+" welcoming and informal."
+msgstr ""
+
+#: templates/includes/el/main.html:51
+msgid ""
+"Be respectful when visiting rural communities, especially when entering "
+"pubs, local shops, or sacred sites."
+msgstr ""
+
+#: templates/includes/el/main.html:52
+msgid ""
+"Take care around traditional music sessions — enjoy, but avoid "
+"interrupting musicians or taking photos without asking."
+msgstr ""
+
+#: templates/includes/el/main.html:53
+msgid ""
+"Driving? Always be courteous on narrow roads — a wave of thanks is part "
+"of Irish road etiquette."
+msgstr ""
+
+#: templates/includes/el/main.html:58
+msgid ""
+"Stay on marked trails when hiking coastal cliffs like Slieve League or "
+"the Cliffs of Moher — they can be slippery and exposed."
+msgstr ""
+
+#: templates/includes/el/main.html:59
+msgid ""
+"Prepare for sudden changes in weather, especially on the west coast — "
+"bring a waterproof jacket even on sunny days."
+msgstr ""
+
+#: templates/includes/el/main.html:60
+msgid ""
+"Mobile signal may be weak in remote areas — download offline maps and "
+"share your travel plans in advance."
+msgstr ""
+
+#: templates/includes/el/main.html:61
+msgid ""
+"Use designated swimming areas when visiting beaches — currents can be "
+"strong along the Atlantic coast."
+msgstr ""
+
+#: templates/includes/el/main.html:71
+msgid "Customer Reviews & Ratings"
+msgstr ""
+
+#: templates/includes/el/main.html:76
+msgid ""
+"Great travel insights! Helped me plan the perfect route through the "
+"Dingle Peninsula."
+msgstr ""
+
+#: templates/includes/el/main.html:77
+msgid "Expert Review, Irish Travel Journal"
+msgstr ""
+
+#: templates/includes/el/main.html:83
+msgid ""
+"Very useful tips. The cultural guide helped us feel confident visiting "
+"local towns."
+msgstr ""
+
+#: templates/includes/el/main.html:84
+msgid "User Testimonial, Athens Couple"
+msgstr ""
+
+#: templates/includes/el/main.html:89
+msgid "Trusted Partner"
+msgstr ""
+
+#: templates/includes/el/main.html:90
+msgid "Certified and verified guides. Highly recommended for new visitors."
+msgstr ""
+
+#: templates/includes/el/main.html:91
+msgid "Verified Badge, Explore Ireland Network"
+msgstr ""
+
+#: templates/includes/el/navbar.html:20
+msgid "Menu"
+msgstr ""
+
+#: templates/includes/el/navbar.html:29
+msgid "Itineraries"
+msgstr ""
+
+#: templates/includes/el/navbar.html:32
+msgid "Guidelines"
+msgstr ""
+
+#: templates/includes/el/navbar.html:42
+msgid "Pantheon icon"
+msgstr ""
+
+#: templates/includes/en/footer.html:8
+msgid "Terms"
+msgstr ""
+
+#: templates/includes/en/hero.html:6
+msgid "Explore the Wild Atlantic Way - Your Journey, Your Way"
+msgstr ""
+
+#: templates/includes/en/hero.html:9
+msgid ""
+"Whether you seek step-by-step guidance or flexible adventures, discover "
+"Ireland's west coast with confidence and curiosity."
+msgstr ""
+
+#: templates/includes/en/hero.html:12
+msgid "Learn More"
+msgstr ""
+
+#: templates/includes/en/main.html:10
+msgid "Dramatic cliffside view"
+msgstr ""
+
+#: templates/includes/en/main.html:15
+msgid "Discover Iconic Landmarks"
+msgstr ""
+
+#: templates/includes/en/main.html:16
+msgid ""
+"From the towering Cliffs of Moher to the peaceful beaches of Donegal, "
+"explore the breathtaking stops that make the Wild Atlantic Way one of the"
+" world's most scenic drives."
+msgstr ""
+
+#: templates/includes/en/main.html:31
+msgid "Artisan crafting pottery"
+msgstr ""
+
+#: templates/includes/en/main.html:36
+msgid "Connect with Local Culture"
+msgstr ""
+
+#: templates/includes/en/main.html:37
+msgid ""
+"Meet artisans, storytellers, and musicians along your route. Discover "
+"authentic Irish experiences that blend history, creativity, and a strong "
+"sense of community."
+msgstr ""
+
+#: templates/includes/en/main.html:52
+msgid "Hiker walking through a forest"
+msgstr ""
+
+#: templates/includes/en/main.html:57
+msgid "Choose Your Own Adventure"
+msgstr ""
+
+#: templates/includes/en/main.html:58
+msgid ""
+"Whether you're following a set itinerary or venturing off the beaten "
+"path, the Wild Atlantic Way offers flexibility, nature, and the freedom "
+"to travel your way."
+msgstr ""
+
+#: templates/includes/en/navbar.html:25
+msgid "Explore Routes"
+msgstr ""
+
+#: templates/includes/en/navbar.html:28
+msgid "Travel Tips"
+msgstr ""
+

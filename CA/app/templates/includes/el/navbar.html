@@ -1,0 +1,64 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container px-5">
+
+        <!-- Brand logo and name; dynamically pulls icon based on current language -->
+        <a class="navbar-brand" href="#page-top">
+            <img src="{{ url_for('static', filename='assets/img/' + lang_code + '/icon.svg') }}"
+                 alt="{{ _('Logo') }}"
+                 class="d-inline-block align-text-top"
+                 style="height: 22px; margin-right: 1rem;">
+            {{ _('The Wild Atlantic Way') }}
+        </a>
+
+        <!-- Menu toggle button with label for high uncertainty avoidance -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="{{ _('Toggle navigation') }}">
+            <span class="navbar-toggler-icon"></span>
+            <span class="ms-2 text-white">{{ _('Menu') }}</span>
+        </button>
+
+        <!-- Main navigation links -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <!-- Main navigation items -->
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="{{ url_for('index') }}">{{ _('Home') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Itineraries') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Guidelines') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Contact') }}</a>
+                </li>
+
+                <!-- Language dropdown with culturally appropriate icons (e.g. Pantheon for Greek users) -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase"
+                       href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="{{ url_for('static', filename='assets/img/' + session['language'] + '/pantheon.png') }}"
+                             alt="{{ _('Pantheon icon') }}"
+                             class="d-inline-block align-text-top"
+                             style="height: 16px; margin-right: 0.5rem;">
+                        {{ session['language']|upper }}
+                    </a>
+
+                    <!-- Language options -->
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{ _('English') }}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='el') }}">{{ _('Greek') }}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='da') }}">{{ _('Danish') }}</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

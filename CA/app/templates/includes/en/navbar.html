@@ -1,0 +1,59 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container px-5">
+        <!-- Website logo that changes based on current language selection -->
+        <a class="navbar-brand" href="#page-top">
+            <img src="{{ url_for('static', filename='assets/img/' + lang_code + '/icon.svg') }}"
+                 alt="{{ _('Logo') }}"
+                 class="d-inline-block align-text-top"
+                 style="height: 22px; margin-right: 1rem;">
+            {{ _('The Wild Atlantic Way') }}
+        </a>
+
+        <!-- Collapsible burger menu button for smaller screens -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="{{ _('Toggle navigation') }}">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation links that collapse on mobile -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <!-- Link to the homepage -->
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="{{ url_for('index') }}">{{ _('Home') }}</a>
+                </li>
+
+                <!-- Placeholder navigation links -->
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Explore Routes') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Travel Tips') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Reviews') }}</a>
+                </li>
+
+                <!-- Language selection dropdown menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase"
+                       href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ session['language']|upper }}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Language options for switching site language -->
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{ _('English') }}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='el') }}">{{ _('Greek') }}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='da') }}">{{ _('Danish') }}</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

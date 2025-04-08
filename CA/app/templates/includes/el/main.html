@@ -1,0 +1,117 @@
+<!-- Main -->
+
+<!-- Content Section 1: Step-by-step trip planning tailored to high uncertainty avoidance personas like Philip -->
+<section id="plan-route" class="py-5 bg-light">
+    <div class="container px-5">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold" style="color: #d4af37;">{{ _('Plan Your Route in 3 Simple Steps') }}</h2>
+            <p class="lead">{{ _('Navigate confidently with our quick, guided process.') }}</p>
+        </div>
+        <div class="row text-center g-4">
+            <!-- Step 1 -->
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100 shadow-sm bg-white">
+                    <img src="{{ url_for('static', filename='assets/img/el/step1.png') }}" alt="{{ _('Step 1') }}" class="mb-3" width="60">
+                    <h4 class="fw-semibold" style="color: #333;">{{ _('1. Choose Your Route') }}</h4>
+                    <p>{{ _('Explore curated paths across the Wild Atlantic Way tailored for your interests.') }}</p>
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100 shadow-sm bg-white">
+                    <img src="{{ url_for('static', filename='assets/img/el/step2.png') }}" alt="{{ _('Step 2') }}" class="mb-3" width="60">
+                    <h4 class="fw-semibold" style="color: #333;">{{ _('2. Set Preferences') }}</h4>
+                    <p>{{ _('Select your travel pace, accessibility needs, and accommodation styles.') }}</p>
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="col-md-4">
+                <div class="p-4 border rounded-3 h-100 shadow-sm bg-white">
+                    <img src="{{ url_for('static', filename='assets/img/el/step3.png') }}" alt="{{ _('Step 3') }}" class="mb-3" width="60">
+                    <h4 class="fw-semibold" style="color: #333;">{{ _('3. Download & Go') }}</h4>
+                    <p>{{ _('Get your customized itinerary — printable, shareable, and ready to roll.') }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content Section 2: Culturally sensitive guidelines displayed using tabbed layout for ease of use -->
+<section id="guidelines" class="py-5 bg-light">
+    <div class="container px-5">
+        <h2 class="fw-bold text-center mb-4" style="color: #d4af37;">{{ _('Cultural and Safety Guidelines') }}</h2>
+
+        <!-- Tabs to switch between etiquette and safety tips -->
+        <ul class="nav nav-tabs justify-content-center mb-4" id="guidelineTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="etiquette-tab" data-bs-toggle="tab" data-bs-target="#etiquette" type="button" role="tab" aria-controls="etiquette" aria-selected="true">{{ _('Cultural Etiquette') }}</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="safety-tab" data-bs-toggle="tab" data-bs-target="#safety" type="button" role="tab" aria-controls="safety" aria-selected="false">{{ _('Safety Tips') }}</button>
+            </li>
+        </ul>
+
+        <!-- Tab content with localised text -->
+        <div class="tab-content bg-white p-4 border rounded" id="guidelineTabsContent">
+            <!-- Cultural Etiquette tab -->
+            <div class="tab-pane fade show active" id="etiquette" role="tabpanel" aria-labelledby="etiquette-tab">
+                <ul class="mb-0">
+                    <li>{{ _('Greet locals with a friendly smile or a casual “hello” — Irish people are welcoming and informal.') }}</li>
+                    <li>{{ _('Be respectful when visiting rural communities, especially when entering pubs, local shops, or sacred sites.') }}</li>
+                    <li>{{ _('Take care around traditional music sessions — enjoy, but avoid interrupting musicians or taking photos without asking.') }}</li>
+                    <li>{{ _('Driving? Always be courteous on narrow roads — a wave of thanks is part of Irish road etiquette.') }}</li>
+                </ul>
+            </div>
+
+            <!-- Safety Tips tab -->
+            <div class="tab-pane fade" id="safety" role="tabpanel" aria-labelledby="safety-tab">
+                <ul class="mb-0">
+                    <li>{{ _('Stay on marked trails when hiking coastal cliffs like Slieve League or the Cliffs of Moher — they can be slippery and exposed.') }}</li>
+                    <li>{{ _('Prepare for sudden changes in weather, especially on the west coast — bring a waterproof jacket even on sunny days.') }}</li>
+                    <li>{{ _('Mobile signal may be weak in remote areas — download offline maps and share your travel plans in advance.') }}</li>
+                    <li>{{ _('Use designated swimming areas when visiting beaches — currents can be strong along the Atlantic coast.') }}</li>
+                </ul>
+                <div class="text-center mt-4">
+                    <img src="{{ url_for('static', filename='assets/img/el/safety-trail.png') }}"
+                         alt="{{ _('Marked coastal trail for safe hiking') }}"
+                         class="img-fluid rounded shadow-sm" style="max-width: 600px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content Section 3: Trust-building review section using stars and localised feedback -->
+<section id="reviews" class="py-5 bg-white border-top">
+    <div class="container px-5">
+        <h2 class="fw-bold text-center mb-4" style="color: #d4af37;">{{ _('Customer Reviews & Ratings') }}</h2>
+        <div class="row g-4 text-center">
+            <!-- Review 1: Journal expert -->
+            <div class="col-md-4">
+                <div class="p-4 border rounded h-100 shadow-sm">
+                    <div class="mb-2" style="color: #f5c518; font-size: 1.2rem;">★★★★★</div>
+                    <p class="mb-1">“{{ _('Great travel insights! Helped me plan the perfect route through the Dingle Peninsula.') }}”</p>
+                    <small class="text-muted">- {{ _('Expert Review, Irish Travel Journal') }}</small>
+                </div>
+            </div>
+
+            <!-- Review 2: User feedback -->
+            <div class="col-md-4">
+                <div class="p-4 border rounded h-100 shadow-sm">
+                    <div class="mb-2" style="color: #f5c518; font-size: 1.2rem;">★★★★★</div>
+                    <p class="mb-1">“{{ _('Very useful tips. The cultural guide helped us feel confident visiting local towns.') }}”</p>
+                    <small class="text-muted">- {{ _('User Testimonial, Athens Couple') }}</small>
+                </div>
+            </div>
+
+            <!-- Review 3: Verified partner section for credibility -->
+            <div class="col-md-4">
+                <div class="p-4 border rounded h-100 shadow-sm">
+                    <h4 class="fw-semibold" style="color: #28a745;">{{ _('Trusted Partner') }}</h4>
+                    <p class="mb-1">{{ _('Certified and verified guides. Highly recommended for new visitors.') }}</p>
+                    <small class="text-muted">- {{ _('Verified Badge, Explore Ireland Network') }}</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

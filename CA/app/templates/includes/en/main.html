@@ -1,0 +1,69 @@
+<!-- Main -->
+<!-- Content section 1: Highlights scenic natural landmarks -->
+<section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <!-- Image on the right for large screens -->
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle"
+                         src="{{ url_for('static', filename='assets/img/' + lang_code + '/01.jpg') }}"
+                         alt="{{ _('Dramatic cliffside view') }}" />
+                </div>
+            </div>
+            <!-- Text on the left for large screens -->
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">{{ _('Discover Iconic Landmarks') }}</h2>
+                    <p>{{ _('From the towering Cliffs of Moher to the peaceful beaches of Donegal, explore the breathtaking stops that make the Wild Atlantic Way one of the world\'s most scenic drives.') }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content section 2: Showcases Irish culture and artisan activities -->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <!-- Image on the left -->
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle"
+                         src="{{ url_for('static', filename='assets/img/' + lang_code + '/02.jpg') }}"
+                         alt="{{ _('Artisan crafting pottery') }}" />
+                </div>
+            </div>
+            <!-- Text on the right -->
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-4">{{ _('Connect with Local Culture') }}</h2>
+                    <p>{{ _('Meet artisans, storytellers, and musicians along your route. Discover authentic Irish experiences that blend history, creativity, and a strong sense of community.') }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content section 3: Emphasises personal freedom and nature -->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <!-- Image on the right for large screens -->
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle"
+                         src="{{ url_for('static', filename='assets/img/' + lang_code + '/03.jpg') }}"
+                         alt="{{ _('Hiker walking through a forest') }}" />
+                </div>
+            </div>
+            <!-- Text on the left for large screens -->
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">{{ _('Choose Your Own Adventure') }}</h2>
+                    <p>{{ _('Whether you\'re following a set itinerary or venturing off the beaten path, the Wild Atlantic Way offers flexibility, nature, and the freedom to travel your way.') }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,62 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container px-5">
+        <!-- Brand logo using language-specific path and alt text for accessibility -->
+        <a class="navbar-brand" href="#page-top">
+            <img src="{{ url_for('static', filename='assets/img/' + lang_code + '/icon.svg') }}"
+                 alt="{{ _('Logo') }}"
+                 class="d-inline-block align-text-top"
+                 style="height: 22px; margin-right: 1rem;">
+            {{ _('The Wild Atlantic Way') }}
+        </a>
+
+        <!-- Responsive burger toggle for mobile users -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="{{ _('Toggle navigation') }}">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <!-- Core navigation links -->
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="{{ url_for('index') }}">{{ _('Home') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Experiences') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Customise Your Trip') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Reviews') }}</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase" href="#">{{ _('Contact') }}</a>
+                </li>
+
+                <!-- Language selector with icon reflecting Danish persona (bike for minimal, eco-friendly travel) -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase"
+                       href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="{{ url_for('static', filename='assets/img/' + lang_code + '/bike.svg') }}"
+                             alt="{{ _('Bike icon') }}"
+                             class="d-inline-block align-text-top"
+                             style="height: 16px; margin-right: 0.5rem;">
+                        {{ session['language']|upper }}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">{{ _('English') }}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='el') }}">{{ _('Greek') }}</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='da') }}">{{ _('Danish') }}</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

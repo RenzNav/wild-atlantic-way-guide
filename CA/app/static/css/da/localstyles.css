@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* NAVBAR */
+/* Soft earthy theme using light background, brown text, and teal accents to reflect nature and minimalism */
+.navbar {
+  /* Define colour variables for navbar text and icons */
+  --bs-navbar-color: rgba(50, 40, 30, 1);
+  --bs-navbar-hover-color: rgba(0, 128, 128, 1);
+  --bs-navbar-disabled-color: rgba(50, 40, 30, 0.4);
+  --bs-navbar-active-color: rgba(0, 128, 128, 1);
+  --bs-navbar-brand-color: rgba(50, 40, 30, 1);
+  --bs-navbar-brand-hover-color: rgba(0, 128, 128, 1);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(50, 40, 30, 0.85)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: rgba(50, 40, 30, 0.2);
+
+  background-color: rgba(240, 255, 250, 0.95) !important; /* Light greenish white for minimalism */
+  color: rgba(50, 40, 30, 1);
+  border-bottom: 3px solid rgba(0, 128, 128, 1); /* Teal accent to create visual clarity */
+}
+
+.navbar-nav .nav-link {
+  color: rgba(50, 40, 30, 1) !important;
+}
+.navbar a.nav-link:hover,
+.navbar-nav .nav-link:hover {
+  color: rgba(0, 128, 128, 1) !important;
+}
+
+
+/* HEADER-HERO */
+/* Teal buttons with clear interactive states for visibility and calmness */
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgba(0, 128, 128, 1);
+  --bs-btn-border-color: rgba(0, 128, 128, 1);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgba(0, 110, 110, 1);
+  --bs-btn-hover-border-color: rgba(0, 110, 110, 1);
+  --bs-btn-focus-shadow-rgb: 0, 128, 128;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgba(0, 100, 100, 1);
+  --bs-btn-active-border-color: rgba(0, 100, 100, 1);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: rgba(0, 128, 128, 1);
+  --bs-btn-disabled-border-color: rgba(0, 128, 128, 1);
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: rgba(0, 128, 128, 1);
+}
+
+
+/* MAIN */
+/* SECTION 1: Experience options use soft green borders and white backgrounds for calm contrast */
+.experience-option {
+  border-color: #a8c3b0;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.experience-option:hover {
+  background-color: #eef6f1;
+  transform: scale(1.02);
+}
+
+
+/* SECTION 2: Map highlights list styling for eco-conscious appeal */
+#map-section ul {
+  padding-left: 1rem;
+  list-style-type: none;
+}
+
+#map-section li::before {
+  content: "• ";
+  color: #008080;
+  font-weight: bold;
+}
+
+
+/* SECTION 3: Carousel testimonials styled to match forest green colour palette */
+.carousel-item blockquote {
+  font-style: italic;
+  color: #3e6d5b;
+  padding: 1rem;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  filter: invert(40%) sepia(10%) saturate(500%) hue-rotate(120deg);
+}
+
+
+/* FOOTER */
+/* Footer links in soft white with green hover for consistency with eco theme */
+.footer-link {
+  color: #f5f5f5;
+  text-decoration: none;
+  margin: 0 0.25rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #a8c3b0;
+  text-decoration: underline;
+}
